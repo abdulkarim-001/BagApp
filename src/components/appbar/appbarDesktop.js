@@ -20,6 +20,7 @@ import SearchIcon from "@mui/icons-material/Search";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import Actions from "./actions";
 import { useUIContext } from "../../context/ui";
+import {Link} from "react-router-dom";
 
 export default function AppbarDesktop({ matches }) {
   
@@ -29,7 +30,7 @@ export default function AppbarDesktop({ matches }) {
     <AppbarContainer>
       <AppbarHeader variant="h4">My Bag</AppbarHeader>
       <MyList type="row">
-        <ListItemText primary="Home" />
+        <Link to ="Home">Home</Link>
         <ListItemText primary="Categories" />
         <ListItemText primary="Products" />
         <ListItemText primary="About us" />
