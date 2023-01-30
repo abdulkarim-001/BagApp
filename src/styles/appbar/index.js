@@ -43,8 +43,8 @@ export const ActionIconsContainerDesktop = styled(Box)(() => ({
 export const MyList = styled(List)(({ type }) => ({
     display: type === "row" ? "flex" : "block",
     flexGrow: 3,
-  justifyContent: "center",
-  alignItems: "center",
+    justifyContent: "center",
+    alignItems: "center",
 }));
 
 

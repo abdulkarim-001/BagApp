@@ -15,7 +15,7 @@ const Home = () => {
   return (
     <Stack>
         <UIProvider>
-    <Appbar />
+            <Appbar />
             <Banner />
             <Promotions />
             <SearchBox />
